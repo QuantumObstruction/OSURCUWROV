@@ -8,18 +8,18 @@
     <title>Scream Cam</title>
   </head>
 <body>
-		
+
     <button type="button" onclick="wsavc.playStream()">Start Video</button>
     <button type="button" onclick="wsavc.pizza()">Stop Video</button>
     <button type="button" onclick="wsavc.disconnect()">Disconnect</button>
-    <br/>
+
 
   <!-- provide WSAvcPlayer -->
-        
-    <script type="text/javascript" src="http-live-player.js"></script>      
+
+    <script type="text/javascript" src="http-live-player.js"></script>
     <script type="text/javascript">
 
- 
+
 
 var canvas = document.createElement("canvas");
 	document.body.appendChild(canvas);
@@ -50,7 +50,7 @@ console.log("GGGGGGame");
 
 function reportOnGamepad() {
   var gp = navigator.getGamepads()[0];
-   
+
   if (gp.buttons[0].pressed)
     wsavc.buttonA();
   if (gp.buttons[1].pressed)
@@ -139,11 +139,18 @@ $(document).ready(function() {
 
   }
 
-}); 
+});
 
 
 </script>
 
+//////////////////////////////////////////////////////////////////////////////////
+<p id="output"></p>
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
   </body>
 </html>
-
