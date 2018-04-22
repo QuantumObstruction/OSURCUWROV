@@ -28,12 +28,3 @@ const silence = new WebStreamerServer(server);
 server.listen(port);
 console.log("Server is now running on port " + port + "...........");
 /*REQUIRED*/
-
-
-
-
-
-
-
-
-

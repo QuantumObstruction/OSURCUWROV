@@ -4512,9 +4512,9 @@ var WSAvcPlayer = new Class({
   },
 
 
-  pizza : function() {
-    this.ws.send("pizza");
-    log("Sent STOPSTREAM");
+  cookie : function() {
+    this.ws.send("cookie");
+   log("Sent STOPSTREAM");
   },
   buttonA : function() {
     this.ws.send("buttonA");

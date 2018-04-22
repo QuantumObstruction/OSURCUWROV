@@ -2190,3 +2190,7 @@ The error was 'BadAccess (attempt to access private resource denied)'.
 ** (gedit:2037): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
 
 ** (gedit:2037): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Unable to init server: Could not connect: Connection refused
+
+** (cheese:1832): ERROR **: cheese-application.vala:86: Unable to initialize libcheese-gtk
